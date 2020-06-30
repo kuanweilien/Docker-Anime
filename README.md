@@ -3,7 +3,7 @@
 *Animation download program source<br/>
 https://github.com/miyouzi/aniGamerPlus<br/>
 *DockerHub<br/>
-https://hub.docker.com/repository/docker/kuanweilien/anime
+https://hub.docker.com/r/kuanweilien/anime
 <br/><br/>
 1.Install docker 
   
@@ -20,6 +20,8 @@ https://hub.docker.com/repository/docker/kuanweilien/anime
     -v {your download path}:/aniGamerPlus/bangumi \
     -d kuanweilien/anime
   
-  
-  
+4.docker exec
+    
+     sudo docker exec -it {container id} bash
+    
   

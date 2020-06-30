@@ -1,10 +1,10 @@
 # Docker-Anime
 *This docker base on ubuntu 20.04<br/>
 *Animation download program source<br/>
-https://github.com/miyouzi/aniGamerPlus
+https://github.com/miyouzi/aniGamerPlus<br/>
 *DockerHub<br/>
 https://hub.docker.com/repository/docker/kuanweilien/anime
-<br/>
+<br/><br/>
 1.Install docker 
   
     sudo apt-get install docker.io

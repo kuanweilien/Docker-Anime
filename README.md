@@ -16,8 +16,8 @@ https://hub.docker.com/repository/docker/kuanweilien/anime
 3.Run 
   
     sudo docker run \
-    -v {your config path}/config.json: /aniGamerPlus/config.json \
-    -v {your download path}:aniGamerPlus/bangumi \
+    -v {your config path}/config.json:/aniGamerPlus/config.json \
+    -v {your download path}:/aniGamerPlus/bangumi \
     -d kuanweilien/anime
   
   
